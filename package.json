@@ -1,0 +1,25 @@
+{
+  "name": "node-oauth",
+  "version": "1.0.0",
+  "description": "Trying OAuth on Express",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/ts-node server.ts",
+    "watch": "nodemon"
+  },
+  "author": "Chauhan.Vineet@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/passport": "^0.3.5",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
